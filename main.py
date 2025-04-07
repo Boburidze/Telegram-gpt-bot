@@ -5,8 +5,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 import openai
 
 logging.basicConfig(level=logging.INFO)
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+BOT_TOKEN = os.getenv("7108037114:AAHVFCjk2d2KTTbus5DEefbGZFXxuVeE4KI")
+OPENAI_API_KEY = os.getenv("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")
 openai.api_key = OPENAI_API_KEY
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
